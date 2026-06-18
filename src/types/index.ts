@@ -18,6 +18,14 @@ export interface Experience {
   tech: string[];
 }
 
+export interface Education {
+  institution: string;
+  name: string;
+  period: string;
+  description: string;
+  tech: string[];
+}
+
 export interface Certification {
   name: string;
   issuer: string;
@@ -33,6 +41,7 @@ export interface Translation {
     projects: string;
     certifications: string;
     experience: string;
+    education: string;
     about: string;
     contact: string;
   };
@@ -69,6 +78,13 @@ export interface Translation {
   experience: {
     title: string;
     subtitle: string;
+    tech: string;
+  };
+  education: {
+    title: string;
+    subtitle: string;
+    institution: string;
+    period: string;
     tech: string;
   };
   about: {

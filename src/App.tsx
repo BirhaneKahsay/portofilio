@@ -3,8 +3,9 @@ import { LangProvider } from "./context/LangContext";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
-import { Certifications } from "./components/Certifications";
 import { Experience } from "./components/Experience";
+import { Education } from "./components/Education";
+import { Certifications } from "./components/Certifications";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -12,8 +13,9 @@ import { Footer } from "./components/Footer";
 const SECTIONS = [
   "home",
   "projects",
-  "certifications",
   "experience",
+  "education",
+  "certifications",
   "about",
   "contact",
 ];
@@ -45,6 +47,7 @@ function AppContent() {
         <Hero />
         <Projects />
         <Experience />
+        <Education />
         <Certifications />
         <About />
         <Contact />

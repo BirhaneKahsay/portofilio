@@ -6,6 +6,7 @@ export const en: Translation = {
     projects: "Projects",
     certifications: "Certifications",
     experience: "Experience",
+    education: "Education",
     about: "About",
     contact: "Contact",
   },
@@ -47,6 +48,13 @@ export const en: Translation = {
     subtitle: "Where I've applied my skills professionally.",
     tech: "Technologies",
   },
+  education: {
+    title: "Education",
+    subtitle: "My academic background and training.",
+    institution: "Institution",
+    period: "Period",
+    tech: "Technologies",
+  },
   about: {
     title: "About Me",
     subtitle: "Developer by trade, integrator by instinct.",
@@ -83,6 +91,7 @@ export const nl: Translation = {
     projects: "Projecten",
     certifications: "Certificaten",
     experience: "Ervaring",
+    education: "Opleiding",
     about: "Over mij",
     contact: "Contact",
   },
@@ -122,6 +131,13 @@ export const nl: Translation = {
   experience: {
     title: "Ervaring",
     subtitle: "Waar ik mijn vaardigheden professioneel heb ingezet.",
+    tech: "Technologieën",
+  },
+  education: {
+    title: "Opleiding",
+    subtitle: "Mijn academische achtergrond en training.",
+    institution: "Instelling",
+    period: "Periode",
     tech: "Technologieën",
   },
   about: {

@@ -1,4 +1,4 @@
-import { Project, Experience, Certification } from "../types";
+import { Project, Experience, Certification, Education } from "../types";
 
 export const projects: Project[] = [
   {
@@ -200,6 +200,42 @@ export const experiences: Experience[] = [
       "Freshdesk API",
       "GitLab CI",
     ],
+  },
+];
+
+export const Educations: Education[] = [
+  {
+    name: "Wetenschappelijk onderwijs in de richting Electrical Engineering.",
+    institution:
+      "Internationale Diplomawaardering (IDW) van het Nederlands Centrum voor Internationale Betrekkingen (Nuffic)",
+    period: "2024",
+    description:
+      "De IDW is een officiële verklaring die de gelijkwaardigheid van een buitenlands diploma aan een Nederlands diploma bevestigt. Het is bedoeld voor mensen die in Nederland willen studeren of werken en hun buitenlandse diploma willen laten erkennen.",
+    tech: ["Nuffic", "IDW", "Diploma Recognition"],
+  },
+  {
+    name: "BSc in Computer Engineering/Electrical and computer Engineering",
+    institution: "Addis Ababa University",
+    period: "2014 - 2019",
+    description:
+      "Studied core computer science concepts including algorithms, data structures, databases, and software engineering. Completed a thesis project on IoT based efficient garbage and waste management systems and Urban beautiy",
+    tech: ["Python", "Java", "SQL", "Machine Learning"],
+  },
+  {
+    name: "Fullstack Development Bootcamp",
+    institution: "Integrify",
+    period: "2024",
+    description:
+      "Intensive fullstack development program covering frontend and backend technologies, database design, and deployment. Built multiple projects using React, TypeScript, Node.js, Express, PostgreSQL, and Docker.",
+    tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Docker"],
+  },
+  {
+    name: "Salesforce Administrator Training",
+    institution: "Salesforce Trailhead",
+    period: "2024",
+    description:
+      "Completed comprehensive training on Salesforce administration, including user management, security, data management, and automation. Earned the Salesforce Administrator credential.",
+    tech: ["Salesforce", "CRM", "Automation", "Data Management"],
   },
 ];
 
