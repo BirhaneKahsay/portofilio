@@ -115,6 +115,23 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: "Social_Media_Post_Automation",
+    title: "Social Media Post Automation",
+    description:
+      "A Python-based automation tool that generates and schedules social media posts across multiple platforms using OpenAI's GPT-4 for content creation.",
+    longDescription:
+      "This project is a Python automation tool that leverages OpenAI's GPT-4 to generate engaging social media content based on user-defined topics and keywords. The tool can schedule posts across various platforms such as Facebook, and Telegram, using their respective APIs. It includes features for content customization, hashtag generation, and analytics tracking to optimize post performance.",
+    tech: ["Python", "OpenAI GPT-4", "Social Media APIs", "Scheduling"],
+    type: "tool",
+    year: "2026",
+    highlights: [
+      "Automated content generation using GPT-4 for diverse topics",
+      "Cross-platform scheduling with API integration for major social media sites",
+      "Customizable post templates and hashtag suggestions",
+      "Analytics tracking for engagement and performance optimization",
+    ],
+  },
+  {
     id: "mcp-weather",
     title: "FastMCP Weather Server",
     description:
