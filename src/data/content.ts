@@ -176,6 +176,25 @@ export const projects: Project[] = [
       "Multi-Database Integration and Robust Error handeling",
     ],
   },
+  {
+    id: "hesabpro",
+    title: "HesabPro -> Boekhouding en facturasie systeem",
+    description:
+      "HesabPro is een allesomvattend boekhoud- en facturatiesysteem dat is ontworpen om het financieel beheer voor bedrijven te stroomlijnen. Het biedt functies zoals geautomatiseerde boekhouding, het genereren van facturen, het bijhouden van uitgaven en financiële rapportages.",
+    longDescription:
+      "HesabPro is een robuust boekhoud- en factureringsplatform dat financiële processen voor bedrijven van elke omvang vereenvoudigt. Het systeem automatiseert belangrijke boekhoudtaken, waaronder grootboekbeheer, belastingberekeningen en het genereren van financiële overzichten. Gebruikers kunnen professionele facturen aanmaken en verzenden, betalingen volgen, uitgaven beheren en gedetailleerde financiële rapporten genereren. HesabPro bevat ook integraties met populaire betaalgateways en bankrekeningen voor een naadloze verwerking van transacties.",
+    tech: ["Python", "FastAPI", "PostgreSQL", "React", "Docker"],
+    type: "fullstack",
+    year: "2026",
+    highlights: [
+      "Geautomatiseerde boekhouding en grootboekbeheer",
+      "Professionele factuurgeneratie met aanpasbare sjablonen",
+      "Mogelijkheden voor het bijhouden van uitgaven en financiële rapportage",
+      "Integratie met betaalgateways en bankrekeningen voor naadloze transactieverwerking",
+      "Gebouwd met Python, FastAPI, PostgreSQL, React en Docker voor schaalbaarheid en prestaties",
+    ],
+    link: "https://hesabpro-alpha.vercel.app",
+  },
 ];
 
 export const experiences: Experience[] = [
